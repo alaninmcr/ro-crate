@@ -33,7 +33,7 @@ _RO-Crate Metadata File_: A JSON-LD file stored as `ro-crate-metadata.json` in t
 
 _RO-Crate Website_: Human-readable HTML pages which describe the RO-Crate (i.e. the _Root Data Entity_, its _Data Entities_ and _Context Entities_), with a home-page at `ro-crate-preview.html` (any additional files reside in `ro-crate-preview_files/`)
 
-_Entity_: An identified object, which have a given _type_ and may be described using a set of _properties_.
+_Entity_: An identified object, which has a given _type_ and may be described using a set of _properties_.
 
 _Type_: A classification of objects or their descriptions. The type (or _class_) is identified by a _URI_, mapped to a _key_ by _JSON-LD_.
 
@@ -53,7 +53,7 @@ _Contextual Entity_: A JSON-LD representation of an entity associated with a _Da
 
 _Linked Data_: A data structure where properties, types and resources are identified with _URIs_, which if retrieved over the Web, further describe or provide the identified property/type/resource.
 
-_URI_: A _Uniform Resource Identifier_ as defined in [RFC 3986], for example `http://example.com/path/file.html` - commonly known as _URL_. In this document the term _URI_ includes _IRI_, which also permit international Unicode characters.
+_URI_: A _Uniform Resource Identifier_ as defined in [RFC 3986], for example `http://example.com/path/file.html` - commonly known as _URL_. In this document the term _URI_ includes _IRI_, which also permits international Unicode characters.
 
 _URI Path_: The relative _path_ element of an _URI_ as defined in [RFC3986 section 3.3], e.g. `path/file.html`
 
